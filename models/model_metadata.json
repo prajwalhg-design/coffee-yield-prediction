@@ -1,0 +1,99 @@
+{
+  "best_model_name": "Gradient_Boosting",
+  "metrics": {
+    "Random_Forest": {
+      "R2_Score": 0.9362,
+      "RMSE": 83.17,
+      "MAE": 64.08,
+      "MAPE_pct": 4.45
+    },
+    "XGBoost": {
+      "R2_Score": 0.9504,
+      "RMSE": 73.32,
+      "MAE": 57.13,
+      "MAPE_pct": 3.96
+    },
+    "Gradient_Boosting": {
+      "R2_Score": 0.953,
+      "RMSE": 71.36,
+      "MAE": 56.04,
+      "MAPE_pct": 3.88
+    }
+  },
+  "transformed_feature_names": [
+    "Altitude_meters",
+    "Avg_Temperature_C",
+    "Max_Temperature_C",
+    "Min_Temperature_C",
+    "Annual_Rainfall_mm",
+    "Blossom_Rainfall_mm",
+    "Soil_pH",
+    "Nitrogen_N",
+    "Phosphorus_P",
+    "Potassium_K",
+    "Organic_Carbon_pct",
+    "Electrical_Conductivity_dS_m",
+    "Relative_Humidity_pct",
+    "Tree_Density_per_Ha",
+    "Coffee_Species_Arabica",
+    "Coffee_Species_Robusta",
+    "Region_Central Highlands, Vietnam",
+    "Region_Chikkamagaluru, Karnataka",
+    "Region_Hassan (Sakleshpur), Karnataka",
+    "Region_Idukki, Kerala",
+    "Region_Kodagu (Coorg), Karnataka",
+    "Region_Minas Gerais, Brazil",
+    "Region_Nilgiris, Tamil Nadu",
+    "Region_Shevaroys (Yercaud), Tamil Nadu",
+    "Region_Wayanad, Kerala"
+  ],
+  "numeric_features": [
+    "Altitude_meters",
+    "Avg_Temperature_C",
+    "Max_Temperature_C",
+    "Min_Temperature_C",
+    "Annual_Rainfall_mm",
+    "Blossom_Rainfall_mm",
+    "Soil_pH",
+    "Nitrogen_N",
+    "Phosphorus_P",
+    "Potassium_K",
+    "Organic_Carbon_pct",
+    "Electrical_Conductivity_dS_m",
+    "Relative_Humidity_pct",
+    "Tree_Density_per_Ha"
+  ],
+  "categorical_features": [
+    "Coffee_Species",
+    "Region"
+  ],
+  "feature_importances": {
+    "Coffee_Species_Arabica": 0.63577,
+    "Coffee_Species_Robusta": 0.18805,
+    "Avg_Temperature_C": 0.04051,
+    "Annual_Rainfall_mm": 0.02928,
+    "Soil_pH": 0.02312,
+    "Blossom_Rainfall_mm": 0.01978,
+    "Nitrogen_N": 0.01543,
+    "Altitude_meters": 0.01298,
+    "Potassium_K": 0.01174,
+    "Phosphorus_P": 0.00854,
+    "Min_Temperature_C": 0.00683,
+    "Organic_Carbon_pct": 0.0024,
+    "Max_Temperature_C": 0.00193,
+    "Relative_Humidity_pct": 0.00115,
+    "Tree_Density_per_Ha": 0.00099,
+    "Electrical_Conductivity_dS_m": 0.00091,
+    "Region_Kodagu (Coorg), Karnataka": 0.00016,
+    "Region_Hassan (Sakleshpur), Karnataka": 0.0001,
+    "Region_Central Highlands, Vietnam": 8e-05,
+    "Region_Shevaroys (Yercaud), Tamil Nadu": 7e-05,
+    "Region_Wayanad, Kerala": 6e-05,
+    "Region_Nilgiris, Tamil Nadu": 5e-05,
+    "Region_Chikkamagaluru, Karnataka": 4e-05,
+    "Region_Minas Gerais, Brazil": 4e-05,
+    "Region_Idukki, Kerala": 0.0
+  },
+  "training_samples_count": 2800,
+  "test_samples_count": 700
+}
