@@ -237,7 +237,7 @@ CH6_TO_CH7_PAGES[53] = {
         ("table", "Table 7.1 Project Publication Details (Academic Year 2026-27)", [
             ["Sl No", "Item Description", "Publication Specifics & Technical Details"],
             ["1", "Paper Title", "Coffee Yield Prediction and Loss Diagnosis Using Explainable AI"],
-            ["2", "Authors & Project Team", "1. Mrs. Sindhu K S / Mrs. Divya H T (Project Guide, Asst. Professor)\n2. Poorvik K R (Candidate, USN: 4MC23IS075)\n3. Prajwal H G (Candidate, USN: 4MC23IS070)\n4. Varun K M (Candidate, USN: 4MC23IS085)\n5. Prajwal D Urs (Candidate, USN: 4MC23IS072)"],
+            ["2", "Authors & Project Team", "1. Mrs. Shruthi B S (Project Guide, Assistant Professor)\n2. Poorvik Gowda K R (Candidate, USN: 4MC23IS069)\n3. Prajwal H G (Candidate, USN: 4MC23IS071)\n4. Prajwal D Urs (Candidate, USN: 4MC23IS072)\n5. Varun K M (Candidate, USN: 4MC23IS085)"],
             ["3", "Conference Name", "ICDSIS-2027\n4th International Conference on Data Science and Information System"],
             ["4", "Name of Journal /\nConference / Proceedings", "4th International Conference on Data Science and Information System (ICDSIS-2027) / IEEE Conference Proceedings"],
             ["5", "Status of the Technical Paper", "Submitted / Under Review (Peer Review Track)"]

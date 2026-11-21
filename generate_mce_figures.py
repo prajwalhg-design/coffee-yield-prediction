@@ -33,7 +33,7 @@ def create_team_sheet():
     ax.text(0.5, 0.895, 'ACADEMIC YEAR 2026–27 | B.E. MAJOR PROJECT IDENTIFICATION SHEET', ha='center', va='center', fontsize=9, color='#475569')
 
     ax.text(0.5, 0.855, 'Coffee Yield Prediction and Loss Diagnosis Using Explainable AI', ha='center', va='center', fontsize=11.5, fontweight='bold', color='#1E3A8A')
-    ax.text(0.5, 0.825, 'Guide: Mrs. Sindhu K S / Mrs. Divya H T, Assistant Professor', ha='center', va='center', fontsize=9.5, fontweight='bold', color='#334155')
+    ax.text(0.5, 0.825, 'Guide: Mrs. Shruthi B S, Assistant Professor', ha='center', va='center', fontsize=9.5, fontweight='bold', color='#334155')
 
     # Table Header
     y_top = 0.77
@@ -49,18 +49,18 @@ def create_team_sheet():
 
     # Students data (4 team members)
     students = [
-        ("1", "POORVIK KR\n4MC23IS075\nDOB: 14-06-2005\npoorvikkr@gmail.com", 
+        ("1", "Poorvik Gowda KR\n4MC23IS069\nDOB: 26-02-2005\npoorvikgowda176@gmail.com", 
          "B T Kopplu\nHassan - 573201\nPh: +91 94812 55678", 
-         "B T Kopplu\nHassan - 573201\nPh: +91 94812 55678", "#1E40AF", "P. KR"),
-        ("2", "PRAJWAL HG\n4MC23IS070\nDOB: 28-02-2005\nprajwalkishan006@gmail.com", 
+         "B T Kopplu\nHassan - 573201\nPh: +91 94812 55678", "#1E40AF", "P. GOWDA"),
+        ("2", "Prajwal HG\n4MC23IS071\nDOB: 12-07-2005\nprajwalkishan006@gmail.com", 
          "Kuvempunagar\nHassan - 573201\nPh: +91 91085 97495", 
          "Kuvempunagar\nHassan - 573201\nPh: +91 91085 97495", "#059669", "P. HG"),
-        ("3", "VARUN KM\n4MC23IS085\nDOB: 19-09-2005\nvarunkm@gmail.com", 
-         "Kuvempunagar\nHassan - 573201\nPh: +91 96328 53872", 
-         "Kuvempunagar\nHassan - 573201\nPh: +91 96328 53872", "#D97706", "V. KM"),
-        ("4", "PRAJWAL D URS\n4MC23IS072\nDOB: 11-11-2005\nprajwaldurs@gmail.com", 
+        ("3", "Prajwal D Urs\n4MC23IS072\nDOB: 28-11-2005\nprajwaldevarajurs@gmail.com", 
          "M Hosakopplu\nHassan - 573201\nPh: +91 79758 73504", 
-         "M Hosakopplu\nHassan - 573201\nPh: +91 79758 73504", "#7C3AED", "P. URS")
+         "M Hosakopplu\nHassan - 573201\nPh: +91 79758 73504", "#7C3AED", "P. URS"),
+        ("4", "Varun KM\n4MC23IS085\nDOB: 23-09-2005\nvarunshetty239@gmail.com", 
+         "Kuvempunagar\nHassan - 573201\nPh: +91 96328 53872", 
+         "Kuvempunagar\nHassan - 573201\nPh: +91 96328 53872", "#D97706", "V. KM")
     ]
 
     for s_idx, (sl, details, contact, perm, col, init) in enumerate(students):
@@ -86,8 +86,8 @@ def create_team_sheet():
 
     # Signatures
     y_sig = 0.08
-    ax.text(0.18, y_sig, '_________________________\nSignature of Candidates\n(Poorvik, Prajwal HG, Varun, Urs)', ha='center', va='center', fontsize=7.5, fontweight='bold', color='#334155')
-    ax.text(0.50, y_sig, '_________________________\nSignature of Guide\n(Mrs. Sindhu K S / Mrs. Divya H T)', ha='center', va='center', fontsize=7.5, fontweight='bold', color='#334155')
+    ax.text(0.18, y_sig, '_________________________\nSignature of Candidates\n(Poorvik, Prajwal HG, Urs, Varun)', ha='center', va='center', fontsize=7.5, fontweight='bold', color='#334155')
+    ax.text(0.50, y_sig, '_________________________\nSignature of Guide\n(Mrs. Shruthi B S, Asst. Professor)', ha='center', va='center', fontsize=7.5, fontweight='bold', color='#334155')
     ax.text(0.82, y_sig, '_________________________\nHead of the Department\nDept. of ISE, MCE Hassan', ha='center', va='center', fontsize=7.5, fontweight='bold', color='#334155')
 
     plt.tight_layout()
@@ -114,7 +114,7 @@ def create_publication_sheet():
     y_start = 0.73
     rows = [
         ("1", "Paper Title", "Coffee Yield Prediction and Loss Diagnosis Using Explainable AI"),
-        ("2", "Authors", "1. Mrs. Sindhu K S / Mrs. Divya H T (Project Guide)\n2. Poorvik K R (4MC23IS075)\n3. Prajwal H G (4MC23IS070)\n4. Varun K M (4MC23IS085)\n5. Prajwal D Urs (4MC23IS072)"),
+        ("2", "Authors", "1. Mrs. Shruthi B S (Project Guide, Assistant Professor)\n2. Poorvik Gowda K R (4MC23IS069)\n3. Prajwal H G (4MC23IS071)\n4. Prajwal D Urs (4MC23IS072)\n5. Varun K M (4MC23IS085)"),
         ("3", "Conference Name", "ICDSIS-2027\n4th International Conference on Data Science and Information System"),
         ("4", "Name of Journal /\nConference / Proceedings", "4th International Conference on Data Science and Information System\n(ICDSIS-2027) / IEEE Conference Proceedings"),
         ("5", "Status of the Technical Paper", "Submitted / Under Review (Peer Review Track)")

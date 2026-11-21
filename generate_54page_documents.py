@@ -7,11 +7,11 @@ Information Science and Engineering (ISE), Malnad College of Engineering (MCE),
 Hassan - 573201 (Academic Year 2026-27).
 
 Team Members:
-1. POORVIK KR (USN: 4MC23IS075)
-2. PRAJWAL HG (USN: 4MC23IS070)
-3. VARUN KM (USN: 4MC23IS085)
-4. PRAJWAL D URS (USN: 4MC23IS072)
-Project Guide: Mrs. Sindhu K S / Mrs. Divya H T
+1. Poorvik Gowda KR (USN: 4MC23IS069)
+2. Prajwal HG (USN: 4MC23IS071)
+3. Prajwal D Urs (USN: 4MC23IS072)
+4. Varun KM (USN: 4MC23IS085)
+Project Guide: Mrs. Shruthi B S, Assistant Professor
 """
 
 import os
